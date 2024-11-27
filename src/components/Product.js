@@ -1,12 +1,12 @@
 import "../App.css"
 export default function Product(props) {
-    let post = props.postData
+    let product = props.product
     return(
         <div className="product">
-          asdfgh
-            {/* <h3>{post.title}</h3>
-            <p>{post.body}</p>
-            <div className="subText">User ID: {post.userId}, Post ID: {post.id}</div> */}
+            <h3>{product.title}</h3><span className="price"> ${product.price}</span>
+            <img src={product.image}/>
+            <p>{product.description}</p>
+            <div className="subText">Product ID: {product.id}</div>
         </div>
     )
 }
