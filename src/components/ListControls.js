@@ -5,7 +5,7 @@ export default function ListControls() {
   return(
     <div>
       Filter by:
-      <select value="Category">
+      <select defaultValue="Category" onChange={(e) => setFilterField(e.target.value)}>
         <option value="Title">Title</option>
         <option value="Description">Description</option>
         <option value="Category">Category</option>
