@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Outfit:wght@100..900&display=swap');
+
+/* css for product browser */
 .product {
   font-family: "Outfit";
   background-color: rgb(187, 223, 255);
@@ -29,4 +31,18 @@
 .subText {
   color: rgb(151, 151, 151);
   font-size: small;
+}
+
+/* css for solo product */
+.productDetails {
+  margin: auto;
+  font-size: larger;
+  width: 50%;
+  height: auto;
+}
+.productDetails .product {
+  min-height: 230px;
+}
+.productDetails img {
+  height: 200px;
 }
